@@ -1,0 +1,7 @@
+kubectl delete configmap api-config -n fridhemfighters
+kubectl delete ingress team-dashboard -n fridhemfighters
+kubectl delete configmap monitor-config -n fridhemfighters
+kubectl delete secret monitor-secret -n fridhemfighters
+kubectl delete serviceaccount monitor-sa -n fridhemfighters
+kubectl delete role monitor-role -n fridhemfighters
+kubectl get rolebinding monitor-binding -n fridhemfighters
