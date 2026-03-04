@@ -66,4 +66,5 @@ settings.local.*
 terraform.tfvars
 *.tfvars
 
+.terraform
 fridhemfighters-kubeconfig.yaml
